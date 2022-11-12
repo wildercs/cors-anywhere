@@ -10,6 +10,7 @@ corsProxy.createServer({
       'http://localhost:3000',
       'https://likano.herokuapp.com',
       'https://nosequewea.tk',
+      'https://proxywil-54m39.ondigitalocean.app'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
